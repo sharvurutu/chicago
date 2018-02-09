@@ -1,0 +1,21 @@
+{
+  "name": "chicago-crime-data",
+  "version": "0.1.0",
+  "description": "Chicago Crime Data Munging Assignment",
+  "main": "index.js",
+  "repository": "ssh://git@gitlab.stackroute.in:2222/assignments/ChicagoCrime-datamunging-wk4.git",
+  "author": "StackRoute",
+  "license": "MIT",
+  "unittests": "myunittest.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "ui-tests": "mocha-phantomjs -R json --ssl-protocol=tlsv1 --ignore-ssl-errors=true UI-Test/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "pkginfo": "^0.4.0",
+    "sinon": "^2.2.0"
+  }
+}

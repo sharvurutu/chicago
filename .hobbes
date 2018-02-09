@@ -1,0 +1,11 @@
+{
+"workflow": "NodeJSConsoleHTMLApp",
+"scores": {
+"cadetTests": 20,
+"commanderTests": 20,
+"cadetUITests": 20,
+"commanderUITests": 20,
+"eslint": 10,
+"htmlhint":10
+}
+}

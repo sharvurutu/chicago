@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.4.1/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+    .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+    if (typeof initMochaPhantomJS === 'function') {
+        initMochaPhantomJS()
+    }
+    mocha.ui('bdd');
+    mocha.reporter('html');
+    expect = chai.expect;
+    </script>
+</head>
+<meta charset="utf-8">
+
+<body>
+    <div id="mocha"></div>
+    <div id="bar"></div>
+</body>
+<script src="../html/Theft_bar_graph.js">
+</script>
+
+<script src="../UI-Test/d3BarTest.js"></script>
+
+<script>
+if (window.mochaPhantomJS) {
+    mochaPhantomJS.run();
+} else {
+    mocha.run();
+}
+</script>
+
+</html>
